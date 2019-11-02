@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 //注意：live2d_path参数应使用绝对路径
 const live2d_path = "https://cdn.jsdelivr.net/gh/bbpp222006/live2d-widget/";
-=======
-//注意：live2d_path参数应使用绝  对路径
-const live2d_path = "https://cdn.jsdelivr.net/gh/bbpp222006/live2d-widget/";
->>>>>>> d61d75703c8ea0fdc749e93b8f4652f2bb976fe0
 //const live2d_path = "/live2d-widget/";
 
 //加载waifu.css
