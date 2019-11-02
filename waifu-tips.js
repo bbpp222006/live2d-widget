@@ -19,6 +19,7 @@ function loadWidget(waifuPath, apiPath) {
 				<span class="fa fa-lg fa-times"></span>
 			</div>
 		</div>`);
+	console.log("fuckk")
 	$("#waifu").css("right",0);
 	$("#waifu").show().animate({ bottom: 0 }, 3000);
 
@@ -221,7 +222,6 @@ function loadWidget(waifuPath, apiPath) {
 		});
 	}
 }
-live2d_settings['waifuEdgeSide']   = 'right:30'; 
 function initWidget(waifuPath = "/waifu-tips.json", apiPath = "") {
 	if (screen.width <= 768) return;
 	$("body").append(`<div id="waifu-toggle" style="margin-left: -100px;">
