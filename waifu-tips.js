@@ -19,7 +19,7 @@ function loadWidget(waifuPath, apiPath) {
 				<span class="fa fa-lg fa-times"></span>
 			</div>
 		</div>`);
-	$("#waifu").css("right","0")
+	$("#waifu").css("right",0);
 	$("#waifu").show().animate({ bottom: 0 }, 3000);
 
 	function registerEventListener() {
