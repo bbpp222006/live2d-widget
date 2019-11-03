@@ -19,10 +19,7 @@ function loadWidget(waifuPath, apiPath) {
 				<span class="fa fa-lg fa-times"></span>
 			</div>
 		</div>`);
-	console.log("fuckk")
-	$("#waifu").css("right",0);
 	$("#waifu").show().animate({ bottom: 0 }, 3000);
-
 	function registerEventListener() {
 		$("#waifu-tool .fa-comment").click(showHitokoto);
 		$("#waifu-tool .fa-paper-plane").click(() => {
